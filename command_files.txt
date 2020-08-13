@@ -1,0 +1,32 @@
+1. The Python installers for Windows include pip. You should be able to access pip using:
+
+py -m pip --version
+pip 9.0.1 from c:\python36\lib\site-packages (Python 3.6.1)
+
+2. upgrade gride command : py -m pip install --upgrade pip
+
+3. installing Virtualenv: py -m pip install --user virtualenv
+
+4 : Creating a virtual environment : py -m venv env
+
+5. Activating a virtual environment :.\env\Scripts\activate
+
+6. Leaving the virtual environment : deactivate
+
+7. I have a requirements.txt that looks like:
+BeautifulSoup==3.2.0
+Django==1.3
+Fabric==1.2.0
+Jinja2==2.5.5
+PyYAML==3.09
+Pygments==1.4
+SQLAlchemy==0.7.1
+South==0.7.3
+amqplib==0.6.1
+anyjson==0.3
+
+and we can install all above package : pip install -r /path/to/requirements.txt
+
+8. Installing specific versions :pip install requests==2.18.4
+
+9. 
